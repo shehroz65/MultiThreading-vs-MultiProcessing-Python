@@ -6,7 +6,9 @@ Ths script has the same task done serially, then using the **concurrent.futures*
 # Key Concepts:
 
 **Global Interpreter Lock (GIL)**: A mechanism in Python that prevents multiple threads from executing python bytecode at the same time.
+
 **Concurrency**: Handling multiple tasks and switching quickly between them instead of processing them simultaneously. 
+
 **Parallelism**: Executing multiple tasks at the same time parallelly. Involves more cores. 
 
 **Why Multi Processing?**
