@@ -47,7 +47,7 @@ def main():
     print(f"Multiprocessed computation time with {num_processes} processes: {end_time - start_time} seconds")
 
     # Multithreaded computation
-    num_threads = 2  # Adjust as needed
+    num_threads = 4  # Adjust as needed
     start_time = time.time()
     threaded_result = threaded_computation(large_array, num_threads)
     end_time = time.time()
