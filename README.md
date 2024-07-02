@@ -9,6 +9,9 @@ Ths script has the same task done serially, then using the brilliant concurrent.
 **Concurrency**: Handling multiple tasks and switching quickly between them instead of processing them simultaneously. 
 **Parallelism**: Executing multiple tasks at the same time parallelly. Involves more cores. 
 
-This script is written to highlight that for **CPU Intensive tasks SPECIFICALLY in Python**, multiprocessing can be more beneficial due to the GIL (Global Interpreter Lock).
-Multithreading in Python only makes sense when you plan to do a lot of I/O based tasks (e.g. making API calls, writing to disk etc). Multiprocessing in Python only works for CPU intensive tasks. 
+**Why Multi Processing?**
+In Python, for truly parallel needed executions (like cpu intensive calculations divided among cores), parallelism is and needed. And multiprocessing is beneficial here because the cores cant afford to wait.
+However, there is greater communication overhead so some exerimentation is necessary to decide the ideal amount of cores for your use case. Also, more system resources may be needed. 
 
+**Why Multi Threading**: 
+For concurrent tasks where the executor can afford to wait like I/O operations, network requests, file reads/writes etc, muli threading can be useful. It has less communication overhead, uses less resources and is less intensive. 
