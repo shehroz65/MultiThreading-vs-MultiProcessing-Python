@@ -10,7 +10,7 @@ Ths script has the same task done serially, then using the brilliant concurrent.
 **Parallelism**: Executing multiple tasks at the same time parallelly. Involves more cores. 
 
 **Why Multi Processing?**
-In Python, for truly parallel needed executions (like cpu intensive calculations divided among cores), parallelism is and needed. And multiprocessing is beneficial here because the cores cant afford to wait.
+In Python, for truly parallel needed executions (like cpu intensive calculations divided among cores), parallelism is needed. And multiprocessing is beneficial here because the cores can't afford to wait.
 However, there is greater communication overhead so some exerimentation is necessary to decide the ideal amount of cores for your use case. Also, more system resources may be needed. 
 
 **Why Multi Threading**: 
