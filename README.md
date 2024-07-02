@@ -1,4 +1,5 @@
-# MultiThreading-vs-MultiProcessing-simple-python-script
+# MultiThreading vs MultiProcessing in Python
+
 I have written a simple cpu intensive recursive calculation that aims to compute Fibonacci numbers recursively. 
 Ths script has the same task done serially, then using the brilliant concurrent.futures doing multithreading and multiprocessing.
 
