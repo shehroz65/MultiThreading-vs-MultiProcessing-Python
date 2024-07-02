@@ -1,6 +1,6 @@
 # CPU Intensive Task: MultiThreading vs MultiProcessing in Python
 
-I have written a cpu intensive calculation script that aims to compute Fibonacci numbers recursively. 
+A CPU intensive calculation script that computes Fibonacci numbers recursively. 
 Ths script has the same task done serially, then using the **concurrent.futures** library doing multithreading and multiprocessing.
 
 # Key Concepts:
