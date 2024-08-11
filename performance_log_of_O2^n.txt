@@ -1,0 +1,352 @@
+2024-08-10 22:54:44,336 - INFO - Starting performance comparison...
+
+2024-08-10 22:54:44,336 - INFO - 
+=== Testing with array size 20 ===
+2024-08-10 22:54:44,336 - INFO - 
+--- Run 1 of 5 for array size 20 ---
+2024-08-10 22:54:44,350 - INFO - Generated array: [31 33 22 22 32 29 33 28 20 25 31 22 24 30 21 21 28 28 23 21]
+
+2024-08-10 22:54:44,350 - INFO - Measuring time for serial_computation...
+2024-08-10 22:54:44,350 - INFO - Running serial computation on array of size 20...
+2024-08-10 22:54:56,951 - INFO - Serial computation completed.
+2024-08-10 22:54:56,951 - INFO - serial_computation took 12.6009 seconds.
+
+2024-08-10 22:54:56,951 - INFO - Measuring time for threaded_computation...
+2024-08-10 22:54:56,951 - INFO - Running threaded computation with 4 threads on array of size 20...
+2024-08-10 22:55:11,106 - INFO - Threaded computation completed.
+2024-08-10 22:55:11,106 - INFO - threaded_computation took 14.1552 seconds.
+
+2024-08-10 22:55:11,106 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 22:55:11,106 - INFO - Running multiprocessing computation with 4 processes on array of size 20...
+2024-08-10 22:55:15,925 - INFO - Multiprocessing computation completed.
+2024-08-10 22:55:15,925 - INFO - multiprocessing_computation took 4.8188 seconds.
+
+2024-08-10 22:55:15,925 - INFO - Results are consistent across all methods.
+
+2024-08-10 22:55:15,925 - INFO - 
+--- Run 2 of 5 for array size 20 ---
+2024-08-10 22:55:15,926 - INFO - Generated array: [26 26 21 34 25 30 21 32 25 28 31 21 33 25 33 27 33 32 31 21]
+
+2024-08-10 22:55:15,926 - INFO - Measuring time for serial_computation...
+2024-08-10 22:55:15,926 - INFO - Running serial computation on array of size 20...
+2024-08-10 22:55:36,790 - INFO - Serial computation completed.
+2024-08-10 22:55:36,790 - INFO - serial_computation took 20.8637 seconds.
+
+2024-08-10 22:55:36,790 - INFO - Measuring time for threaded_computation...
+2024-08-10 22:55:36,790 - INFO - Running threaded computation with 4 threads on array of size 20...
+2024-08-10 22:56:01,375 - INFO - Threaded computation completed.
+2024-08-10 22:56:01,375 - INFO - threaded_computation took 24.5854 seconds.
+
+2024-08-10 22:56:01,375 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 22:56:01,375 - INFO - Running multiprocessing computation with 4 processes on array of size 20...
+2024-08-10 22:56:09,421 - INFO - Multiprocessing computation completed.
+2024-08-10 22:56:09,422 - INFO - multiprocessing_computation took 8.0467 seconds.
+
+2024-08-10 22:56:09,422 - INFO - Results are consistent across all methods.
+
+2024-08-10 22:56:09,422 - INFO - 
+--- Run 3 of 5 for array size 20 ---
+2024-08-10 22:56:09,422 - INFO - Generated array: [27 20 34 27 21 34 32 34 20 32 29 21 29 22 27 24 31 32 27 29]
+
+2024-08-10 22:56:09,422 - INFO - Measuring time for serial_computation...
+2024-08-10 22:56:09,422 - INFO - Running serial computation on array of size 20...
+2024-08-10 22:56:32,389 - INFO - Serial computation completed.
+2024-08-10 22:56:32,389 - INFO - serial_computation took 22.9676 seconds.
+
+2024-08-10 22:56:32,389 - INFO - Measuring time for threaded_computation...
+2024-08-10 22:56:32,389 - INFO - Running threaded computation with 4 threads on array of size 20...
+2024-08-10 22:57:01,443 - INFO - Threaded computation completed.
+2024-08-10 22:57:01,443 - INFO - threaded_computation took 29.0532 seconds.
+
+2024-08-10 22:57:01,443 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 22:57:01,443 - INFO - Running multiprocessing computation with 4 processes on array of size 20...
+2024-08-10 22:57:12,679 - INFO - Multiprocessing computation completed.
+2024-08-10 22:57:12,679 - INFO - multiprocessing_computation took 11.2368 seconds.
+
+2024-08-10 22:57:12,679 - INFO - Results are consistent across all methods.
+
+2024-08-10 22:57:12,679 - INFO - 
+--- Run 4 of 5 for array size 20 ---
+2024-08-10 22:57:12,680 - INFO - Generated array: [20 34 32 27 23 29 25 30 32 31 28 28 26 24 23 25 29 21 29 21]
+
+2024-08-10 22:57:12,680 - INFO - Measuring time for serial_computation...
+2024-08-10 22:57:12,680 - INFO - Running serial computation on array of size 20...
+2024-08-10 22:57:33,436 - INFO - Serial computation completed.
+2024-08-10 22:57:33,437 - INFO - serial_computation took 20.7566 seconds.
+
+2024-08-10 22:57:33,437 - INFO - Measuring time for threaded_computation...
+2024-08-10 22:57:33,437 - INFO - Running threaded computation with 4 threads on array of size 20...
+2024-08-10 22:58:06,948 - INFO - Threaded computation completed.
+2024-08-10 22:58:06,948 - INFO - threaded_computation took 33.5112 seconds.
+
+2024-08-10 22:58:06,949 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 22:58:06,949 - INFO - Running multiprocessing computation with 4 processes on array of size 20...
+2024-08-10 22:58:14,100 - INFO - Multiprocessing computation completed.
+2024-08-10 22:58:14,100 - INFO - multiprocessing_computation took 7.1511 seconds.
+
+2024-08-10 22:58:14,100 - INFO - Results are consistent across all methods.
+
+2024-08-10 22:58:14,100 - INFO - 
+--- Run 5 of 5 for array size 20 ---
+2024-08-10 22:58:14,101 - INFO - Generated array: [25 30 22 28 23 33 29 20 34 20 30 26 23 22 20 31 33 22 27 24]
+
+2024-08-10 22:58:14,101 - INFO - Measuring time for serial_computation...
+2024-08-10 22:58:14,101 - INFO - Running serial computation on array of size 20...
+2024-08-10 22:58:38,058 - INFO - Serial computation completed.
+2024-08-10 22:58:38,058 - INFO - serial_computation took 23.9571 seconds.
+
+2024-08-10 22:58:38,058 - INFO - Measuring time for threaded_computation...
+2024-08-10 22:58:38,059 - INFO - Running threaded computation with 4 threads on array of size 20...
+2024-08-10 22:59:06,321 - INFO - Threaded computation completed.
+2024-08-10 22:59:06,321 - INFO - threaded_computation took 28.2631 seconds.
+
+2024-08-10 22:59:06,321 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 22:59:06,321 - INFO - Running multiprocessing computation with 4 processes on array of size 20...
+2024-08-10 22:59:13,090 - INFO - Multiprocessing computation completed.
+2024-08-10 22:59:13,090 - INFO - multiprocessing_computation took 6.7686 seconds.
+
+2024-08-10 22:59:13,090 - INFO - Results are consistent across all methods.
+
+2024-08-10 22:59:13,091 - INFO - 
+--- Averages for array size 20 ---
+2024-08-10 22:59:13,091 - INFO - Average serial computation time: 20.2292 seconds
+2024-08-10 22:59:13,091 - INFO - Average threaded computation time: 25.9136 seconds
+2024-08-10 22:59:13,091 - INFO - Average multiprocessing computation time: 7.6044 seconds
+
+2024-08-10 22:59:13,091 - INFO - 
+=== Testing with array size 30 ===
+2024-08-10 22:59:13,091 - INFO - 
+--- Run 1 of 5 for array size 30 ---
+2024-08-10 22:59:13,091 - INFO - Generated array: [23 25 22 30 26 20 32 23 30 30 25 28 22 32 30 27 33 34 27 32 30 33 22 31
+ 23 29 21 23 24 20]
+
+2024-08-10 22:59:13,091 - INFO - Measuring time for serial_computation...
+2024-08-10 22:59:13,091 - INFO - Running serial computation on array of size 30...
+2024-08-10 22:59:35,555 - INFO - Serial computation completed.
+2024-08-10 22:59:35,555 - INFO - serial_computation took 22.4639 seconds.
+
+2024-08-10 22:59:35,555 - INFO - Measuring time for threaded_computation...
+2024-08-10 22:59:35,555 - INFO - Running threaded computation with 4 threads on array of size 30...
+2024-08-10 23:00:01,103 - INFO - Threaded computation completed.
+2024-08-10 23:00:01,103 - INFO - threaded_computation took 25.5486 seconds.
+
+2024-08-10 23:00:01,103 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:00:01,103 - INFO - Running multiprocessing computation with 4 processes on array of size 30...
+2024-08-10 23:00:09,811 - INFO - Multiprocessing computation completed.
+2024-08-10 23:00:09,811 - INFO - multiprocessing_computation took 8.7079 seconds.
+
+2024-08-10 23:00:09,811 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:00:09,811 - INFO - 
+--- Run 2 of 5 for array size 30 ---
+2024-08-10 23:00:09,811 - INFO - Generated array: [31 23 31 33 33 22 32 24 34 29 26 26 31 26 23 25 24 29 26 32 33 31 32 22
+ 21 34 32 27 29 31]
+
+2024-08-10 23:00:09,812 - INFO - Measuring time for serial_computation...
+2024-08-10 23:00:09,812 - INFO - Running serial computation on array of size 30...
+2024-08-10 23:00:42,976 - INFO - Serial computation completed.
+2024-08-10 23:00:42,976 - INFO - serial_computation took 33.1639 seconds.
+
+2024-08-10 23:00:42,976 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:00:42,976 - INFO - Running threaded computation with 4 threads on array of size 30...
+2024-08-10 23:01:20,964 - INFO - Threaded computation completed.
+2024-08-10 23:01:20,964 - INFO - threaded_computation took 37.9883 seconds.
+
+2024-08-10 23:01:20,965 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:01:20,965 - INFO - Running multiprocessing computation with 4 processes on array of size 30...
+2024-08-10 23:01:34,451 - INFO - Multiprocessing computation completed.
+2024-08-10 23:01:34,451 - INFO - multiprocessing_computation took 13.4860 seconds.
+
+2024-08-10 23:01:34,451 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:01:34,452 - INFO - 
+--- Run 3 of 5 for array size 30 ---
+2024-08-10 23:01:34,452 - INFO - Generated array: [27 24 21 32 24 31 32 27 32 32 30 26 23 22 21 30 29 31 28 24 24 34 24 32
+ 24 23 25 20 28 22]
+
+2024-08-10 23:01:34,452 - INFO - Measuring time for serial_computation...
+2024-08-10 23:01:34,452 - INFO - Running serial computation on array of size 30...
+2024-08-10 23:01:53,884 - INFO - Serial computation completed.
+2024-08-10 23:01:53,884 - INFO - serial_computation took 19.4317 seconds.
+
+2024-08-10 23:01:53,884 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:01:53,884 - INFO - Running threaded computation with 4 threads on array of size 30...
+2024-08-10 23:02:16,378 - INFO - Threaded computation completed.
+2024-08-10 23:02:16,379 - INFO - threaded_computation took 22.4948 seconds.
+
+2024-08-10 23:02:16,379 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:02:16,379 - INFO - Running multiprocessing computation with 4 processes on array of size 30...
+2024-08-10 23:02:26,036 - INFO - Multiprocessing computation completed.
+2024-08-10 23:02:26,036 - INFO - multiprocessing_computation took 9.6570 seconds.
+
+2024-08-10 23:02:26,036 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:02:26,036 - INFO - 
+--- Run 4 of 5 for array size 30 ---
+2024-08-10 23:02:26,037 - INFO - Generated array: [29 29 22 25 28 33 34 31 22 32 31 21 31 33 22 30 22 27 24 32 21 34 28 24
+ 28 31 31 28 23 23]
+
+2024-08-10 23:02:26,037 - INFO - Measuring time for serial_computation...
+2024-08-10 23:02:26,037 - INFO - Running serial computation on array of size 30...
+2024-08-10 23:02:53,384 - INFO - Serial computation completed.
+2024-08-10 23:02:53,384 - INFO - serial_computation took 27.3474 seconds.
+
+2024-08-10 23:02:53,385 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:02:53,385 - INFO - Running threaded computation with 4 threads on array of size 30...
+2024-08-10 23:03:24,054 - INFO - Threaded computation completed.
+2024-08-10 23:03:24,055 - INFO - threaded_computation took 30.6689 seconds.
+
+2024-08-10 23:03:24,055 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:03:24,055 - INFO - Running multiprocessing computation with 4 processes on array of size 30...
+2024-08-10 23:03:36,203 - INFO - Multiprocessing computation completed.
+2024-08-10 23:03:36,203 - INFO - multiprocessing_computation took 12.1480 seconds.
+
+2024-08-10 23:03:36,203 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:03:36,203 - INFO - 
+--- Run 5 of 5 for array size 30 ---
+2024-08-10 23:03:36,203 - INFO - Generated array: [31 28 24 24 29 28 25 23 25 20 28 20 32 32 32 34 21 20 24 24 27 24 26 34
+ 23 31 23 27 21 34]
+
+2024-08-10 23:03:36,203 - INFO - Measuring time for serial_computation...
+2024-08-10 23:03:36,204 - INFO - Running serial computation on array of size 30...
+2024-08-10 23:04:00,229 - INFO - Serial computation completed.
+2024-08-10 23:04:00,229 - INFO - serial_computation took 24.0246 seconds.
+
+2024-08-10 23:04:00,229 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:04:00,229 - INFO - Running threaded computation with 4 threads on array of size 30...
+2024-08-10 23:04:29,557 - INFO - Threaded computation completed.
+2024-08-10 23:04:29,557 - INFO - threaded_computation took 29.3287 seconds.
+
+2024-08-10 23:04:29,557 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:04:29,557 - INFO - Running multiprocessing computation with 4 processes on array of size 30...
+2024-08-10 23:04:39,130 - INFO - Multiprocessing computation completed.
+2024-08-10 23:04:39,130 - INFO - multiprocessing_computation took 9.5731 seconds.
+
+2024-08-10 23:04:39,130 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:04:39,130 - INFO - 
+--- Averages for array size 30 ---
+2024-08-10 23:04:39,130 - INFO - Average serial computation time: 25.2863 seconds
+2024-08-10 23:04:39,130 - INFO - Average threaded computation time: 29.2059 seconds
+2024-08-10 23:04:39,130 - INFO - Average multiprocessing computation time: 10.7144 seconds
+
+2024-08-10 23:04:39,131 - INFO - 
+=== Testing with array size 40 ===
+2024-08-10 23:04:39,131 - INFO - 
+--- Run 1 of 5 for array size 40 ---
+2024-08-10 23:04:39,131 - INFO - Generated array: [21 22 23 20 23 24 23 28 23 31 25 21 22 33 31 31 30 20 26 34 30 25 26 21
+ 32 28 33 28 20 22 34 20 34 33 28 27 33 32 24 23]
+
+2024-08-10 23:04:39,131 - INFO - Measuring time for serial_computation...
+2024-08-10 23:04:39,131 - INFO - Running serial computation on array of size 40...
+2024-08-10 23:05:15,248 - INFO - Serial computation completed.
+2024-08-10 23:05:15,248 - INFO - serial_computation took 36.1162 seconds.
+
+2024-08-10 23:05:15,248 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:05:15,249 - INFO - Running threaded computation with 4 threads on array of size 40...
+2024-08-10 23:05:56,634 - INFO - Threaded computation completed.
+2024-08-10 23:05:56,634 - INFO - threaded_computation took 41.3869 seconds.
+
+2024-08-10 23:05:56,634 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:05:56,634 - INFO - Running multiprocessing computation with 4 processes on array of size 40...
+2024-08-10 23:06:10,239 - INFO - Multiprocessing computation completed.
+2024-08-10 23:06:10,239 - INFO - multiprocessing_computation took 13.6047 seconds.
+
+2024-08-10 23:06:10,239 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:06:10,239 - INFO - 
+--- Run 2 of 5 for array size 40 ---
+2024-08-10 23:06:10,240 - INFO - Generated array: [26 31 20 23 25 22 30 22 21 22 20 21 23 20 32 29 23 20 22 34 33 29 20 30
+ 32 29 27 33 23 24 33 26 33 23 27 30 28 28 21 20]
+
+2024-08-10 23:06:10,240 - INFO - Measuring time for serial_computation...
+2024-08-10 23:06:10,240 - INFO - Running serial computation on array of size 40...
+2024-08-10 23:06:35,900 - INFO - Serial computation completed.
+2024-08-10 23:06:35,901 - INFO - serial_computation took 25.6603 seconds.
+
+2024-08-10 23:06:35,901 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:06:35,901 - INFO - Running threaded computation with 4 threads on array of size 40...
+2024-08-10 23:07:04,930 - INFO - Threaded computation completed.
+2024-08-10 23:07:04,930 - INFO - threaded_computation took 29.0295 seconds.
+
+2024-08-10 23:07:04,930 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:07:04,930 - INFO - Running multiprocessing computation with 4 processes on array of size 40...
+2024-08-10 23:07:14,349 - INFO - Multiprocessing computation completed.
+2024-08-10 23:07:14,349 - INFO - multiprocessing_computation took 9.4189 seconds.
+
+2024-08-10 23:07:14,349 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:07:14,349 - INFO - 
+--- Run 3 of 5 for array size 40 ---
+2024-08-10 23:07:14,350 - INFO - Generated array: [26 20 28 26 31 32 29 32 25 32 25 21 34 29 29 22 30 20 21 28 29 24 21 20
+ 33 25 24 32 23 27 34 22 33 25 27 20 27 29 33 34]
+
+2024-08-10 23:07:14,350 - INFO - Measuring time for serial_computation...
+2024-08-10 23:07:14,350 - INFO - Running serial computation on array of size 40...
+2024-08-10 23:07:50,301 - INFO - Serial computation completed.
+2024-08-10 23:07:50,301 - INFO - serial_computation took 35.9518 seconds.
+
+2024-08-10 23:07:50,301 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:07:50,301 - INFO - Running threaded computation with 4 threads on array of size 40...
+2024-08-10 23:08:29,962 - INFO - Threaded computation completed.
+2024-08-10 23:08:29,962 - INFO - threaded_computation took 39.6609 seconds.
+
+2024-08-10 23:08:29,962 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:08:29,962 - INFO - Running multiprocessing computation with 4 processes on array of size 40...
+2024-08-10 23:08:44,949 - INFO - Multiprocessing computation completed.
+2024-08-10 23:08:44,949 - INFO - multiprocessing_computation took 14.9867 seconds.
+
+2024-08-10 23:08:44,949 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:08:44,949 - INFO - 
+--- Run 4 of 5 for array size 40 ---
+2024-08-10 23:08:44,950 - INFO - Generated array: [24 23 29 20 23 33 21 20 33 31 26 23 25 30 26 32 31 25 26 25 29 21 22 33
+ 32 31 23 26 28 20 20 27 23 30 21 22 24 21 27 24]
+
+2024-08-10 23:08:44,950 - INFO - Measuring time for serial_computation...
+2024-08-10 23:08:44,950 - INFO - Running serial computation on array of size 40...
+2024-08-10 23:09:04,612 - INFO - Serial computation completed.
+2024-08-10 23:09:04,612 - INFO - serial_computation took 19.6626 seconds.
+
+2024-08-10 23:09:04,612 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:09:04,612 - INFO - Running threaded computation with 4 threads on array of size 40...
+2024-08-10 23:09:26,397 - INFO - Threaded computation completed.
+2024-08-10 23:09:26,397 - INFO - threaded_computation took 21.7844 seconds.
+
+2024-08-10 23:09:26,397 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:09:26,397 - INFO - Running multiprocessing computation with 4 processes on array of size 40...
+2024-08-10 23:09:34,863 - INFO - Multiprocessing computation completed.
+2024-08-10 23:09:34,863 - INFO - multiprocessing_computation took 8.4660 seconds.
+
+2024-08-10 23:09:34,864 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:09:34,864 - INFO - 
+--- Run 5 of 5 for array size 40 ---
+2024-08-10 23:09:34,864 - INFO - Generated array: [34 32 22 32 30 28 28 31 32 29 27 21 25 26 26 31 22 30 31 33 25 27 25 34
+ 23 32 21 25 29 26 21 33 24 34 32 21 25 28 33 30]
+
+2024-08-10 23:09:34,864 - INFO - Measuring time for serial_computation...
+2024-08-10 23:09:34,864 - INFO - Running serial computation on array of size 40...
+2024-08-10 23:10:15,015 - INFO - Serial computation completed.
+2024-08-10 23:10:15,015 - INFO - serial_computation took 40.1508 seconds.
+
+2024-08-10 23:10:15,015 - INFO - Measuring time for threaded_computation...
+2024-08-10 23:10:15,015 - INFO - Running threaded computation with 4 threads on array of size 40...
+2024-08-10 23:11:02,577 - INFO - Threaded computation completed.
+2024-08-10 23:11:02,577 - INFO - threaded_computation took 47.5617 seconds.
+
+2024-08-10 23:11:02,577 - INFO - Measuring time for multiprocessing_computation...
+2024-08-10 23:11:02,577 - INFO - Running multiprocessing computation with 4 processes on array of size 40...
+2024-08-10 23:11:31,289 - INFO - Multiprocessing computation completed.
+2024-08-10 23:11:31,290 - INFO - multiprocessing_computation took 28.7126 seconds.
+
+2024-08-10 23:11:31,290 - INFO - Results are consistent across all methods.
+
+2024-08-10 23:11:31,290 - INFO - 
+--- Averages for array size 40 ---
+2024-08-10 23:11:31,290 - INFO - Average serial computation time: 31.5083 seconds
+2024-08-10 23:11:31,290 - INFO - Average threaded computation time: 35.8847 seconds
+2024-08-10 23:11:31,290 - INFO - Average multiprocessing computation time: 15.0377 seconds
+
+2024-08-10 23:12:56,768 - INFO - Performance comparison completed. Insights can now be analyzed.
