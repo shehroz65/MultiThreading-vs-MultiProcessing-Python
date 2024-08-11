@@ -16,6 +16,6 @@ In Python, for truly parallel needed executions (like cpu intensive calculations
 However, there is greater communication overhead so some exerimentation is necessary to decide the ideal amount of cores for your use case. Also, more system resources may be needed. 
 
 **Why Multi Threading**: 
-For concurrent tasks where the executor can afford to wait like I/O operations, network requests, file reads/writes etc, muli threading can be useful. It has less communication overhead, uses less resources and is less intensive. 
+For concurrent tasks where the executor can afford to wait like I/O operations, network requests, file reads/writes etc, multi threading can be useful. It has less communication overhead, uses less resources and is less intensive. 
 
 **executor.map(compute, array)** automatically creates chunks of the list passed in the 2nd argument. It then automatically assigns those chunks to each process and thread it is using. 
